@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
+        while (false) {
             System.out.print("Enter Customer Name: ");
             customers.name = scanner.nextLine();
 
