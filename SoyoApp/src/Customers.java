@@ -6,14 +6,16 @@ public class Customers {
     String name;
     String contact, location;
     String customer_id;
+    int soyo;
     Database database = new Database();
 
     public boolean add_customer() {
-        
+
         if (name != null && contact != null && location != null) {
             if (name.length() > 0 && contact.length() > 0 && location.length() > 0) {
                 return database.addCustomer(name, contact, location);
-            } else {
+            }
+            else {
                 System.out.println("Sorry, provide all details to continue");
             }
         }

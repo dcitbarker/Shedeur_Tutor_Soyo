@@ -15,6 +15,7 @@ public class Main {
             if (customers.name.equalsIgnoreCase("x")) {
                 break;
             }
+
             System.out.print("Enter Customer Contact Number: ");
             customers.contact = scanner.nextLine();
 
@@ -26,5 +27,7 @@ public class Main {
                 customers.showCustomers();      // reload the table
             }
         }
+
+
     }
 }
