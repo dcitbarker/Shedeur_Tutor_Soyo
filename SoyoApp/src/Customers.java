@@ -29,7 +29,6 @@ public class Customers {
         System.out.println("Hi " + name + ", Welcome to Soyo's Stores");
     }
 
-
     public void showCustomers() {
         ArrayList<String[]> customers = database.getCustomers();
         System.out.println("MY CUSTOMERS DATABASE - TOTAL: " + customers.size());
